@@ -27,8 +27,8 @@ public class DriveAndClaw extends OpMode {
         arm=hardwareMap.dcMotor.get("arm");
         right.setDirection(DcMotor.Direction.REVERSE);
         arm.setDirection(DcMotor.Direction.REVERSE);
-        Gamepad previousGamepad = new Gamepad();
-        Gamepad currentGamepad = new Gamepad();
+        Gamepad previousGamepad = gamepad1;
+        Gamepad currentGamepad = gamepad1;
 
 
     }
